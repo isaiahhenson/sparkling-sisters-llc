@@ -196,6 +196,30 @@ body.nav-active { overflow: hidden; }
   background-color: var(--bg-english-vermillion);
   box-shadow: var(--shadow-3);
 }
+
+.section { padding-block-end: var(--section-spacing); }
+
+.has-bg-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.title {
+  color: var(--text-gunmetal);
+  font-weight: var(--weight-semiBold);
+  line-height: 1.45;
+}
+
+.h1 {
+  font-size: var(--fontSize-1);
+  line-height: 1.2;
+}
+
+.h2 { font-size: var(--fontSize-2); }
+
+.h3 { font-size: var(--fontSize-4); }
+
 /*-----------------------------------*\
   #PRELOADER
 \*-----------------------------------*/
@@ -385,7 +409,7 @@ body.nav-active { overflow: hidden; }
   #HERO
 \*-----------------------------------*/
 
-
+.hero { padding-block-start: 150px; }
 
 
 
