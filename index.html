@@ -57,7 +57,7 @@
     <header class="header active" data-header>
         <div class="container">
 
-            <a href="" class="logo">
+            <a href="#head" class="logo">
                 <p class="sparkleLogo"><b>SparklingSistersLLC</b></p>
                 <!-- <img src="./assets/images/logo.svg" width="187" height="38" alt="logo"> -->
             </a>
@@ -77,19 +77,23 @@
                 <ul class="navbar-list">
 
                     <li class="narbar-item">
-                        <a href="" class="navbar-link active">Home</a>
+                        <a href="tel:+4845222488" class="navbar-link">(484)522-2488</a>
+                    </li>
+
+                    <li class="narbar-item">
+                        <a href="#head" class="navbar-link active">Home</a>
                     </li>
                     <li class="narbar-item">
-                        <a href="" class="navbar-link">About</a>
+                        <a href="#btn-primary" class="navbar-link">About</a>
                     </li>
                     <li class="narbar-item">
-                        <a href="" class="navbar-link">Services</a>
+                        <a href="#services" class="navbar-link">Services</a>
                     </li>
                     <li class="narbar-item">
-                        <a href="" class="navbar-link">Pricing</a>
+                        <a href="#desti" class="navbar-link">Pricing</a>
                     </li>
                     <li class="narbar-item">
-                        <a href="" class="navbar-link">Contact</a>
+                        <a href="#footer-list-title" class="navbar-link">Contact</a>
                     </li>
 
                 </ul>
@@ -123,7 +127,7 @@
 
                     <div class="hero-content">
 
-                        <p class="hero-subtitle">
+                        <p class="hero-subtitle" id="head">
                             Revitalize Your Wardrobe 
                             <!-- <img src="./assets/images/title-icon.svg" width="20" height="20" alt="world icon" class="img"> -->
                         </p>
@@ -158,7 +162,7 @@
                             </button>
                         </div> -->
 
-                        <figure class="hero-banner">
+                        <figure class="hero-banner" id="hero-banner">
                             <img src="./assets/images/SparklingSistersLogo (1).png" width="631" height="735" alt="hero banner"
                                 class="w-100">
                         </figure>
@@ -171,23 +175,24 @@
             <!--
                 -#SERVICE
             -->
+            <div class="title-wrapper" id="title-wrapper">
+
+                <p class="section-subtitle" id="services">
+                    Discover Our Laudry Care
+                </p>
+
+                <h2 class="h2 title section-title">Top Benefits Tailored for You</h2>
+
+                <!-- <p class="section-text">
+                    Try a variety of benefits when using our services.
+                </p> -->
+
+            </div>
 
             <section class="section service" aria-label="service">
                 <div class="container">
 
-                    <div class="title-wrapper">
-
-                        <p class="section-subtitle">
-                            Discover Our Laudry Care
-                        </p>
-
-                        <h2 class="h2 title section-title">Top Benefits Tailored for You</h2>
-
-                        <!-- <p class="section-text">
-                            Try a variety of benefits when using our services.
-                        </p> -->
-
-                    </div>
+                    
 
                     <div class="service-card">
                         <div class="card-icon">
@@ -239,7 +244,7 @@
                 -DESTINATION
             -->
 
-            <section class="section desti" aria-label="destination">
+            <section class="section desti" aria-label="destination" id="desti">
                 <div class="container">
 
                     <p class="section-subtitle">PRIME LAUNDRY PICK</p>
@@ -248,7 +253,7 @@
                         Explore Our Top Choices
                     </h2>
 
-                    <ul class="desti-list">
+                    <ul class="desti-list" id="desti-list">
 
                         <li>
                             <div class="desti-card">
@@ -472,7 +477,7 @@
                         </li> -->
                     </ul>
 
-                    <a href="#" class="btn btn-primary">Get in Touch</a>
+                    <a href="#" class="btn btn-primary" id="btn-primary">Get in Touch</a>
 
                 </div>
             </section>
@@ -486,7 +491,7 @@
 
                     <div class="exp-content">
 
-                        <p class="section-subtitle">
+                        <p class="section-subtitle" id="about">
                             OUR EXPERTISE
                         </p>
 
@@ -629,7 +634,7 @@
                     <div class="cta-card has-bg-image" style="background-image: url
                     ('./assets/images/cta-bg.jpg')">
 
-                        <h2 class="h2 title section-title">
+                        <h2 class="h2 title section-title renew">
                             Renew Your Fabrics with Sparkling Sisters LLC
 
                             <img src="./assets/images/title-icon.svg" width="36" height="36" loading="lazy" alt="icon"
@@ -691,7 +696,7 @@
 
                     </ul> -->
 
-                </div>
+                <!-- </div>
 
                 <ul class="footer-list one">
 
@@ -769,24 +774,24 @@
 
                 </ul>
 
-                <div class="footer-list">
+            </div> -->
 
-                    <p class="footer-list-title">Get in Touch</p>
+            <div class="footer-list" id="footer-list-title">
 
-                    <p class="footer-text">
-                        Question or feedback? We'd love to hear from you.
-                    </p>
+                <p class="footer-list-title">Get in Touch</p>
 
-                    <form action="" class="input-wrapper">
-                        <input type="email" name="email_address" placeholder="Email 
-                        Address" autocomplete="off" required class="input-field">
+                <p class="footer-text">
+                    Question or feedback? We'd love to hear from you.
+                </p>
 
-                        <button type="submit" class="input-btn" aria-label="send a message">
-                            <ion-icon name="paper-plane-outline" aria-hidden="true"></ion-icon>
-                        </button>
-                    </form>
+                <form action="" class="input-wrapper">
+                    <input type="email" name="email_address" placeholder="Email 
+                    Address" autocomplete="off" required class="input-field">
 
-                </div>
+                    <button type="submit" class="input-btn" aria-label="send a message">
+                        <ion-icon name="paper-plane-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </form>
 
             </div>
 
