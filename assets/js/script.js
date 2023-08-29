@@ -30,6 +30,7 @@ const toggleNav = function () {
 
 addEventOnElements(navTogglers, "click", toggleNav)
 
+
 /**
  * Header
  */
