@@ -580,6 +580,7 @@ body.nav-active {
   gap: 25px;
 }
 
+
 .service-card:nth-child(2) {
   background-color: var(--bg-chrome-yellow-alpha-5);
 }
@@ -623,6 +624,11 @@ body.nav-active {
 
 .desti-card:hover .img-cover,
 .desti-card:focus-within .img-cover {
+  transform: scale(1.05);
+}
+
+.service-card:hover,
+.service-card:focus-within {
   transform: scale(1.05);
 }
 
@@ -960,6 +966,11 @@ body.nav-active {
   /**
   * FOOTER
   */
+
+  #bottom-logo {
+    border-radius: 45%;
+  }
+
 
   .footer-bottom-list {
     display: flex;
