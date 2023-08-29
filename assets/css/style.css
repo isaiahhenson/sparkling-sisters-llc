@@ -269,7 +269,7 @@ body.nav-active {
 
 .section-title {
   margin-block: 10px;
-  padding-left: 15px;
+  /* padding-left: 15px; */
 }
 
 #services.section-subtitle {
@@ -1181,6 +1181,13 @@ body.nav-active {
 
   .copyright { margin-block-end: 0; }
 
+}
+
+#section-title {
+  padding-left: 0px;
+}
+.section-title {
+  padding-left: 16px;
 }
 
 
